@@ -6,6 +6,7 @@ if "Ham" in meat and meat[2] < 100:
     meat[2] = 100
 
 deli_dept = [meat, cheese, condiment]
+print(f"Initial Deli List: {deli_dept}")
 
 seasonal_meat = ["Turkey", 4.50, 100, "Sliced"]
 deli_dept.append(seasonal_meat)
